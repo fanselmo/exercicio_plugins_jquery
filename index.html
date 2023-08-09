@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<header>
+  <h1>Cadastro de Clientes</h1>
+</header>
+
+<body>
+  <form>
+    <div class="form-field">
+      <label for="customerName">Nome Completo</label>
+      <input type="text" id="customerName">
+    </div>
+
+    <div class="form-field">
+      <label for="email">E-mail</label>
+      <input type="email" id="email">
+    </div>
+
+    <div class="form-field">
+      <label for="phoneNumber">Telefone</label>
+      <input type="tel" id="phoneNumber">
+    </div>
+
+    <div class="form-field">
+      <label for="cpf">CPF</label>
+      <input type="number" id="cpf">
+    </div>
+    
+    <h3>Endereço Completo</h3>
+    <div class="form-field">
+      <label for="street">Rua</label>
+      <input type="text" id="street">
+    </div>
+
+    <div class="form-field">
+      <label for="addrNumber">Número</label>
+      <input type="number" id="addrNumber">
+    </div>
+
+    <div class="form-field">
+      <label for="neighbor">Bairro</label>
+      <input type="Bairro" id="neighbor">
+    </div>
+
+    <div class="form-field">
+      <label for="city">Cidade</label>
+      <input type="text" id="city">
+    </div>
+
+    <div class="form-field">
+      <label for="state">Estado</label>
+      <select id="state" name="estado">
+        <option value=""></option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+        <option value="EX">Estrangeiro</option>
+      </select>
+    </div>
+
+    <div class="form-field">
+      <label for="cep">CEP</label>
+      <input type="number" id="cep">
+    </div>
+
+    <div class="form-field">
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
