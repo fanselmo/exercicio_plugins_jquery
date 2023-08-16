@@ -9,6 +9,7 @@
 
 h1 {
   margin-bottom: 16px;
+  margin-top: 10px;
   width: 101.5%;
   text-align: center;
   background-color: bisque;
@@ -69,5 +70,6 @@ button {
     font-style: italic;
     cursor: pointer;
     border-radius: 6px;
+    margin-bottom: 10px;
 }
 
